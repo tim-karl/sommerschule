@@ -20,9 +20,9 @@ def eingang():
     print("Du stehst vor dem Eingang eines verlassenen Schlosses.")
     print("Gehst du hinein? (j/n)")
     if valid_input(["j","n"]) == "j":
-        return "leave"
-    else:
         return "enter"
+    else:
+        return "leave"
 
 def leave():
     print("Du drehst um und gehst nach Hause. Langweilig!")
